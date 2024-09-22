@@ -1,4 +1,4 @@
-/* * {
+ * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -29,4 +29,4 @@ body {
 .light-bg {
   background-image: url("./assets/images/light-bg.png");
   background-size: cover;
-} */
+}

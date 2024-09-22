@@ -1,4 +1,4 @@
-/* @font-face {
+@font-face {
     font-family: "poppins";
     src: url("../../assets//fonts/Poppins/Poppins-Medium.ttf") format("truetype");
 }
@@ -23,7 +23,7 @@
     height: 100vh;
     background-size: cover;
     position: relative;
-} */
+}
 
 .landingPageContent {
     position: relative;
