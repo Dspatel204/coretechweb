@@ -1,0 +1,804 @@
+@font-face {
+    font-family: "poppins";
+    src: url("../../assets//fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "poppinsLight";
+    src: url("../../assets//fonts/Poppins/Poppins-Light.ttf") format("truetype");
+}
+
+
+@font-face {
+    font-family: "koho";
+    src: url("../../assets//fonts/KoHo//KoHo-Bold.ttf") format("truetype");
+}
+
+.aboutContainer {
+    margin: 14em 5em 6em 5em;
+}
+
+
+.aboutUsLandingContainer {
+    display: flex;
+    gap: 4em;
+    margin-bottom: 10em;
+}
+
+.aboutUsLandingImg img {
+    width: 649px;
+}
+
+.aboutUsLandingImg .contactImg {
+    width: 573px;
+}
+
+.aboutUsLandingText h1 {
+    font-family: koho;
+    font-size: 95px;
+    font-weight: 700;
+    line-height: 130px;
+    letter-spacing: 0.03em;
+    color: #6C42F8;
+    margin-bottom: 0.2em;
+}
+
+.aboutUsLandingText .borderFont {
+    color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #6C42F8;
+}
+
+.aboutUsLandingText p {
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #2B2424;
+}
+
+.darkColor {
+    color: #E1E0E0 !important;
+}
+
+.pricipleHexagonParent {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 2em; */
+    justify-content: space-around;
+    padding-bottom: 5em;
+    margin-bottom: 10em;
+}
+
+.pricipleHeading,
+.ourTeamHeading {
+    display: flex;
+    justify-content: center;
+}
+
+.pricipleHeading h1,
+.ourTeamHeading h1 {
+    border-bottom: 2px dashed #6C42F8;
+    font-family: koho;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0.03em;
+    color: #8B68FF;
+    margin-bottom: 1em;
+}
+
+/* .priciplehexagon {
+    width: 350px;
+    height: 250px;
+    position: relative;
+
+}
+
+.priciplehexagon,
+.priciplehexagon:before,
+.priciplehexagon:after {
+    background: white;
+    box-shadow: 0px 0px 15px 0px rgba(87, 86, 86, 0.8);
+    transition: transform 0.3s ease
+}
+
+.priciplehexagon:after {
+    box-shadow: 8px -8px 15px -3px rgba(87, 86, 86, 0.8);
+}
+
+.priciplehexagon:hover:before {
+    box-shadow: 0px 0px 15px 0px #927DFA;
+}
+
+.priciplehexagon:hover {
+    box-shadow: 0px 0px 15px 0px #927DFA;
+    transform: scale(1.05);
+
+}
+
+.priciplehexagon:hover:after {
+    box-shadow: 8px -8px 15px -3px #927DFA;
+}
+
+
+
+.priciplehexagon:before,
+.priciplehexagon:after {
+    content: "";
+    position: absolute;
+    left: 71px;
+    width: 208px;
+    height: 200px;
+    transform: rotate(145deg) skew(21.5deg);
+}
+
+.priciplehexagon:before {
+    top: -99px;
+}
+
+.priciplehexagon:after {
+    top: 149px;
+}
+
+.priciplehexagon p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.priciplehexagon.dark-mode,
+.priciplehexagon.dark-mode:before,
+.priciplehexagon.dark-mode:after {
+    background: #F0ECEC1A !important;
+    box-shadow: 0px 0px 15px 0px #FFFFFF59 inset, 0px 7px 10px 0px #00000040 !important;
+}
+
+.priciplehexagon.dark-mode p {
+    background-color: #F0ECEC1A;
+}
+
+
+.innovationLogo {
+    width: 131px;
+    height: 92px;
+}
+
+.expertiseLogo {
+    width: 95px;
+    height: 95px;
+}
+
+.clientsLogo {
+    width: 109px;
+    height: 92px;
+}
+
+.priciplehexagon p img {
+    position: absolute;
+    top: -70px;
+} */
+
+
+.ourTeamContainer {
+    padding-bottom: 6em;
+}
+
+.teamImagesParent {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.ourTeamContainer .ourTeamHeading h1 {
+    margin-bottom: 1em;
+}
+
+
+.teamTopImagesFlex,
+.teamMiddleFlex {
+    display: flex;
+}
+
+.teamTopImagesFlex {
+    gap: 4em;
+    align-items: flex-end;
+}
+
+.teamMiddleFlex {
+    align-items: center;
+    margin: 20px auto;
+    gap: 2em;
+}
+
+.teamBottom {
+    align-items: flex-start;
+}
+
+.ourTeamContainer img {
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center top;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.teamMember img:hover {
+    box-shadow: 0px 4px 15px 0px #927DFA;
+    transform: scale(1.05);
+}
+
+.imgTransform {
+    box-shadow: 0px 4px 15px 0px #927DFA;
+    transform: scale(1.05)
+}
+
+.firstMember,
+.seventhMember {
+    flex: 40;
+    text-align: end;
+}
+
+.secondMember,
+.sixthMember {
+    flex: 20;
+}
+
+.thirdMember,
+.fifthMember {
+    flex: 40;
+}
+
+.firstMember img {
+    width: 163.34px;
+    height: 119.96px;
+}
+
+.secondMember img {
+    width: 232.06px;
+    height: 170.44px;
+
+}
+
+.thirdMember img {
+    width: 163.34px;
+    height: 119.96px;
+}
+
+.fourthMember img {
+    width: 232.06px;
+    height: 170.44px;
+}
+
+.fifthMember img {
+    width: 163.34px;
+    height: 119.96px;
+}
+
+.sixthMember img {
+    width: 232.06px;
+    height: 170.44px;
+
+}
+
+.seventhMember img {
+    width: 163.34px;
+    height: 119.96px;
+
+}
+
+.eightMember img {
+    width: 232.06px;
+    height: 170.44px;
+}
+
+.aboutMember {
+    /* width: 594px;
+height: 170.44px; */
+    border-radius: 20px;
+    background: #FFFFFF1A;
+    box-shadow: 0px 0px 15px 0px #927dfa9d inset;
+    padding: 20px 3em 30px;
+    text-align: center;
+}
+
+.changeShadow {
+    box-shadow: 0px 0px 15px 0px #FFFFFF80 inset !important;
+}
+
+.aboutMember .memberName {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutMember .memberName h2 {
+    border-bottom: 2px dashed #6C42F8;
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+.aboutMember h6 {
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #2B2424;
+    text-align: center;
+}
+
+.aboutMember p {
+    font-family: poppins;
+    font-size: 13px;
+    font-weight: lighter;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #2B2424;
+}
+
+.teamInfoDarkClr {
+    color: #E1E0E0 !important;
+    font-family: poppins;
+    font-size: 13px;
+    font-weight: lighter;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+}
+
+/* ------------------ */
+.innovationLogo {
+    width: 131px;
+    height: 92px;
+}
+
+.expertiseLogo {
+    width: 95px;
+    height: 95px;
+}
+
+.clientsLogo {
+    width: 109px;
+    height: 92px;
+}
+
+.leftHexagon {
+    position: relative;
+    /* height: 500px; */
+    /* width: 50.33%; */
+    box-sizing: border-box;
+
+}
+
+.hexagonContent {
+    position: absolute;
+    top: 3em;
+    text-align: center;
+    padding: 0 2em;
+}
+
+.hexagonContent p h2 {
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0.03em;
+    margin: 5px auto 10px;
+    color: #20242A;
+}
+
+
+
+.hexagonContent p span {
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: #5A5252;
+}
+
+.pricipletextDark {
+    color: #E1E0E0 !important;
+}
+
+
+@media screen and (max-width: 1350px) {
+    .aboutContainer {
+        margin: 12em 4em 6em 4em;
+    }
+
+    .aboutUsLandingContainer {
+        gap: 3em;
+    }
+
+    .aboutUsLandingImg img {
+        width: 540px;
+    }
+
+    .aboutUsLandingImg .contactImg {
+        width: 540px;
+    }
+
+    .priciplehexagon {
+        width: 300px;
+        height: 220px;
+    }
+
+    .priciplehexagon:before,
+    .priciplehexagon:after {
+        left: 61px;
+        width: 178.5px;
+        height: 172px;
+        transform: rotate(145deg) skew(21.5deg);
+    }
+
+    .priciplehexagon:before {
+        top: -87px;
+    }
+
+    .priciplehexagon:after {
+        top: 134px;
+    }
+
+    .priciplehexagon p h2 {
+        font-size: 25px;
+        line-height: 35px;
+        letter-spacing: 0.02em;
+        margin: 20px auto 10px;
+    }
+
+    .priciplehexagon p span {
+        font-size: 15px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .imgHexagon img {
+        width: 300px;
+    }
+
+    .innovationLogo {
+        width: 101px;
+        height: 82px;
+    }
+
+    .expertiseLogo {
+        width: 75px;
+        height: 85px;
+    }
+
+    .clientsLogo {
+        width: 89px;
+        height: 82px;
+    }
+
+    .hexagonContent {
+        top: 3em;
+        padding: 0 1em;
+    }
+
+    .hexagonContent p h2 {
+        font-size: 22px;
+        line-height: 35px;
+        margin: 5px auto 5px;
+    }
+
+    .hexagonContent p span {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+}
+
+@media screen and (max-width: 1251px) {
+    .aboutUsLandingImg .contactImg {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 1151px) {
+    .aboutContainer {
+        margin: 12em 3em 6em 3em;
+    }
+
+    .aboutUsLandingContainer {
+        gap: 2em;
+    }
+
+    .aboutUsLandingImg img {
+        width: 450px;
+    }
+
+    .aboutUsLandingText h1 {
+        font-size: 80px;
+        line-height: 100px;
+        letter-spacing: 0.02em;
+        margin-bottom: 0.1em;
+    }
+
+    .aboutUsLandingText p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .aboutMember {
+        padding: 20px 1.5em;
+    }
+
+    .aboutMember p {
+        letter-spacing: 0.02em;
+        line-height: 17px;
+    }
+
+}
+
+@media screen and (max-width: 1060px) {
+    .priciplehexagon p img {
+        top: -59px;
+    }
+
+    .innovationLogo {
+        width: 101px;
+        height: 82px;
+    }
+
+    .expertiseLogo {
+        width: 75px;
+        height: 75px;
+    }
+
+    .clientsLogo {
+        width: 89px;
+        height: 68px;
+    }
+
+    .priciplehexagon {
+        width: 230px;
+        height: 220px;
+    }
+
+    .priciplehexagon:before,
+    .priciplehexagon:after {
+        left: 48px;
+        width: 134.5px;
+        height: 134px;
+        transform: rotate(145deg) skew(21.5deg);
+    }
+
+    .priciplehexagon:before {
+        top: -67px;
+    }
+
+    .priciplehexagon:after {
+        top: 152px;
+    }
+
+    .priciplehexagon p h2 {
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: 0.02em;
+        margin: 20px auto 10px;
+    }
+
+    .priciplehexagon p span {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .priciplehexagon p {
+        padding: 0 5px;
+    }
+
+    .aboutMember {
+        padding: 10px 0.8em;
+    }
+
+    .teamTopImagesFlex {
+        gap: 2em;
+    }
+
+    .teamMiddleFlex {
+        gap: 1em;
+    }
+
+    .secondMember img,
+    .sixthMember img {
+        width: 200.06px;
+        height: 143.44px;
+    }
+
+    .fourthMember img,
+    .eightMember img {
+        width: 200.06px;
+        height: 164.44px;
+    }
+
+    .aboutMember .memberName h2 {
+
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .imgHexagon img {
+        width: 250px;
+    }
+
+    .innovationLogo {
+        width: 97px;
+        height: 61px;
+    }
+
+    .expertiseLogo {
+        width: 70px;
+        height: 61px;
+    }
+
+    .clientsLogo {
+        width: 85px;
+        height: 61px;
+    }
+
+    .hexagonContent {
+        top: 2em;
+        padding: 0 0.5em;
+    }
+
+    .hexagonContent p h2 {
+        font-size: 20px;
+        line-height: 20px;
+        margin: 5px auto 5px;
+    }
+
+    .hexagonContent p span {
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
+
+
+@media screen and (max-width: 980px) {
+    .aboutUsLandingImg .contactImg {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 921px) {
+    .aboutContainer {
+        margin: 9em 1.5em 6em 1.5em;
+    }
+
+    .aboutUsLandingContainer {
+        gap: 1.1em;
+    }
+
+    .aboutUsLandingImg img {
+        width: 350px;
+    }
+
+    .aboutUsLandingText h1 {
+        font-size: 70px;
+        line-height: 90px;
+        letter-spacing: 0.02em;
+        margin-bottom: 0.1em;
+    }
+
+    .aboutUsLandingText p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .imgHexagon img {
+        width: 220px;
+    }
+
+    .innovationLogo {
+        width: 87px;
+        height: 51px;
+    }
+
+    .expertiseLogo {
+        width: 60px;
+        height: 51px;
+    }
+
+    .clientsLogo {
+        width: 75px;
+        height: 51px;
+    }
+
+    .hexagonContent {
+        top: 2em;
+        padding: 0 0.5em;
+    }
+
+    .hexagonContent p h2 {
+        font-size: 18px;
+        line-height: 20px;
+        margin: 5px auto 5px;
+    }
+
+    .hexagonContent p span {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .aboutUsLandingImg img {
+        width: 200px;
+    }
+
+    .pricipleHeading,
+    .ourTeamHeading {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .aboutUsLandingText {
+        width: 30%;
+    }
+
+    .aboutUsLandingText h1 {
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .light-bg {
+        width: 100%;
+    }
+
+    .pricipleHexagonParent {
+        width: 50%;
+    }
+
+    .aboutContainer {
+        width: 160%;
+    }
+
+    .hexagonContent p span {
+        font-size: 9px;
+    }
+
+    .ourTeamContainer .ourTeamHeading h1 {
+        width: 65%;
+    }
+
+    .footerParent {
+        padding: 20px;
+    }
+
+    .ourTeamContainer {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .teamTopImagesFlex {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .teamMiddleFlex {
+        flex-direction: column;
+    }
+
+    .teamTopImagesFlex {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:480px) {}
+
+@media screen and (max-width:320px) {}

@@ -1,0 +1,32 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url("../../assets//fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "koho";
+  src: url("../../assets//fonts/KoHo//KoHo-Bold.ttf") format("truetype");
+}
+
+body {
+  position: relative;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.dark-bg {
+  background-image: url("./assets/images/dark-bg.png");
+  background-size: cover;
+}
+
+.light-bg {
+  background-image: url("./assets/images/light-bg.png");
+  background-size: cover;
+} */

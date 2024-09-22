@@ -1,0 +1,21 @@
+.scroll-up-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background: hsla(0, 0%, 100%, 0.18);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  border-radius: 10px;
+}
+
+.scroll-up-button-dark{
+  background: hsla(0, 0%, 3%, 0.404);
+}
+
+.scroll-up-button.visible {
+  display: block;
+}

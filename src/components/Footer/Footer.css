@@ -1,0 +1,273 @@
+@font-face {
+    font-family: "poppins";
+    src: url("../../assets//fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "poppinsLight";
+    src: url("../../assets//fonts/Poppins/Poppins-Light.ttf") format("truetype");
+}
+
+
+@font-face {
+    font-family: "port";
+    src: url("../../assets//fonts/Port_Lligat_Sans/PortLligatSans-Regular.ttf") format("truetype");
+}
+
+.footerParent {
+    padding: 3em 7em;
+    box-shadow: 0px 0px 10px 0px #0000001A inset;
+    background: #D9D9D9;
+    background-image: linear-gradient(to bottom right, transparent, transparent 74%, rgba(0, 0, 0, 0.2) 86%, #848199), linear-gradient(to top left, transparent, transparent 75%, rgba(0, 0, 0, 0.2) 88%, #848199);
+}
+
+
+
+.footerDarkBg {
+    background: #1D142D;
+    background-image: linear-gradient(to bottom right, transparent, transparent 75%, #1D142D 88%, #84819986), linear-gradient(to top left, transparent, transparent 75%, #1D142D 88%, #84819981);
+}
+
+.topContainer {
+    display: flex;
+    column-gap: 3em;
+}
+
+.leftCol {
+    flex: 35;
+}
+
+.middleCol {
+    flex: 31;
+}
+
+.rightCol {
+    flex: 34;
+}
+
+.middleCol h2 {
+
+    margin-left: 17px;
+}
+
+.middleCol img {
+    width: 12px;
+    margin-right: 5px;
+}
+
+.middleCol span {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #4B4A4A;
+    cursor: pointer;
+}
+
+.middleCol p {
+    margin-bottom: 0 !important;
+}
+
+
+.footerServicesTop {
+    margin-bottom: 3em;
+}
+
+
+.rightCol img {
+    width: 21px;
+}
+
+.footerCols h2 {
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+
+}
+
+.leftCol p {
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #4B4A4A;
+
+}
+
+.logoAndText img {
+    width: 220px;
+}
+
+.logoAndText {
+    position: relative;
+    margin-bottom: 2em;
+}
+
+.logoAndText span {
+    font-family: port;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14.99px;
+    letter-spacing: 0.05em;
+    position: absolute;
+    left: 76px;
+    bottom: 8px;
+}
+
+.phoneNo span,
+.fax span,
+.email span {
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22.5px;
+    color: #4B4A4A;
+    margin-left: 20px;
+}
+
+.phoneNo,
+.fax,
+.email {
+    padding-bottom: 15px;
+    border-bottom: 2px dashed #4B4A4A;
+    margin-bottom: 15px;
+}
+
+.email {
+    border-bottom: none;
+}
+
+.copyrightSocialIconContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+    align-items: center;
+}
+
+.socialIconContainer {
+    display: flex;
+    column-gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.copyright {
+    flex: 80;
+    font-family: poppins;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 16.5px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #4B4A4A;
+
+}
+
+.socialIconContainer {
+    flex: 20
+}
+
+.leftCol .grayClr,
+.middleCol .grayClr,
+.phoneNo .grayClr,
+.fax .grayClr,
+.email .grayClr,
+.copyrightSocialIconContainer .copyrightGray,
+.rightCol .grayClrTagline {
+    color: #B8B6B6;
+}
+
+@media screen and (max-width: 1350px) {
+    .footerParent {
+        padding: 3em 4em;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .footerParent {
+        padding: 3em 3em;
+    }
+
+    .topContainer {
+        gap: 2em;
+    }
+
+    .logoAndText span {
+        font-size: 13px;
+        letter-spacing: 0.02em;
+        left: 76px;
+        bottom: 8px;
+    }
+
+}
+
+@media screen and (max-width: 993px) {
+    .logoAndText span {
+        left: 76px;
+        bottom: -5px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .footerParent {
+        padding: 3em 2em;
+    }
+
+    .topContainer {
+        gap: 1.5em;
+    }
+
+    .logoAndText img {
+        width: 160px;
+    }
+
+    .leftCol p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .footerServicesTop {
+        margin-bottom: 1em;
+    }
+
+    .middleCol span {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .phoneNo span,
+    .fax span,
+    .email span {
+        font-size: 13px;
+        line-height: 17.5px;
+        margin-left: 15px;
+    }
+
+    .leftCol {
+        flex: 40;
+    }
+
+    .middleCol {
+        flex: 20;
+    }
+
+    .rightCol {
+        flex: 30;
+    }
+
+    .logoAndText span {
+        left: 58px;
+        bottom: 3px;
+    }
+}
+
+@media screen and (max-width: 909px) {
+    .logoAndText span {
+        left: 58px;
+        bottom: -10px;
+    }
+}
