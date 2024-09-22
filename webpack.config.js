@@ -30,14 +30,14 @@ export default {
         test: /\.(ttf|woff|woff2|eot|otf)$/i, // Handle font files
         type: "asset/resource",
         generator: {
-          filename: "fonts/[name].[hash][ext]", // Output pattern for fonts
+          filename: "fonts/[name].[ext]", // Output pattern for fonts
         },
       },
       {
         test: /\.(png|jpe?g|gif|svg)$/i,
         type: "asset/resource", // Use Webpack 5's asset module to handle images
         generator: {
-          filename: "images/[name].[hash][ext]", // Output pattern for images
+          filename: "images/[name].[ext]", // Output pattern for images
         },
       },
       {
@@ -47,7 +47,7 @@ export default {
             loader: "file-loader",
             options: {
               outputPath: "images",
-              name: "[name].[hash].[ext]",
+              name: "[name].[ext]",
             },
           },
         ],
